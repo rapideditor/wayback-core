@@ -1,4 +1,11 @@
 # wayback-core
+
+>
+> 👋 <br/>
+> This is just a copy of the awesome wayback-core repo that can be found at https://github.com/vannizhang/wayback-core <br/>
+> You probably want that instead. <br/>
+>
+
 This package offers core functionalities to retrieve all versions of the World Imagery Wayback archieve, or find versions that contain local changes.
 
 ## Installation 
