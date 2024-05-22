@@ -20,6 +20,15 @@ let waybackItems: WaybackItem[] = null;
  */
 let waybackItemByReleaseNumber: Map<number, WaybackItem> = null;
 
+
+/**
+ * This function allows the caller to set the config data manually rather than fetching it via the url.
+ * @param config - contents of the config data
+ */
+export const setWaybackConfigData = (config: WaybackConfig) => {
+    waybackconfig = config;
+};
+
 /**
  * Get Wayback Configuration file that provides information about all World Imagery Wayback releases.
  * This function retrieves the Wayback Configuration data asynchronously, caching it for subsequent calls.
