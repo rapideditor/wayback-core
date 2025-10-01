@@ -4,4 +4,3 @@ jest.config.js
 .eslintrc.js
 .prettierrc.js
 .eslintcache
-.husky/
